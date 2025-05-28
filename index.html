@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="author" content="Jessica Miranda" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jessica Miranda-Xometl's API</title>
+    <link href="css/index.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <header>My Open API Project</header>
+    <h2>Pokemons! </h2>
+    <p>
+      Enter your favorite Pokemon's name to see their image and type! ex.
+      Charizard, Bulbasaur, Mew, or Pikachu
+    </p>
+    <section id="pokemonImage">
+      <input type="text" id="pokeName" placeholder="Enter Pokemon Name" />
+      <button onclick="fetchData()">Fetch Character</button>
+      <img src="" alt="Pokemon Image" id="pokeImg" style="display: none" />
+    </section>
+
+    <section id="pokeTypes"></section>
+
+    <h2> Doggies! </h2>
+  </br>
+  <p>
+    Enter your the full Dog Breed to see a picture and origin! ex. Affenpinscher, African Hunting Dog, Airedale Terrier, American Water Spaniel. 
+  </p>
+
+    <section id="dogImage">
+      <input type="text" id="dogBreed" placeholder="Enter Dog Breed" />
+      <button onclick="fetchData2()">Fetch Dog</button>
+      </section>
+    </br>
+      <img src="" alt="Dog Image" id="dogImg" style="display: none" />
+    </section>
+    <section id="dogOrigin"></section>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
