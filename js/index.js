@@ -1,7 +1,5 @@
 //Pokemon API
-
 fetchData();
-
 async function fetchData() {
   try {
     const pokeName = document.getElementById("pokeName").value.toLowerCase();
